@@ -1,0 +1,7 @@
+
+train: ../formatted-dataset/images/train/ 
+val: ../formatted-dataset/images/val/  
+
+# Classes
+nc: 6  # number of classes
+names: ['','Macacao', 'Mascara', 'Protetor Facial' , 'Luvas', 'Oculos']  # class names
