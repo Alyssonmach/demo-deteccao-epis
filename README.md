@@ -13,14 +13,14 @@ O objetivo do projeto consiste em desenvolver um sistema que detecte automaticam
 
 ### Métricas Avaliativas
 
-|Classe|Imagens|Rótulos|Precisão|Sensibilidade|
-|-|-|-|-|-|
-|Macacão|29|45|1|0.721|
-|Protetor Facial|29|17|0.868|0.765|
-|Luvas|29|61|0.833|0.705|
-|Óculos|29|32|0.762|0.656|
-|Máscara|29|52|0.922|0.846|
-|Todas as Classes|29|207|0.877|0.739|
+|Classe|Imagens|Rótulos|Acurácia (%)|Precisão (%)|Sensibilidade (%)|
+|-|-|-|-|-|-|
+|Macacão|29|45|83,70|99,00|72,10|
+|Protetor Facial|29|17|89,00|86,80|76,50|
+|Luvas|29|61|79,20|83,30|70,50|
+|Óculos|29|32|73,50|76,20|65,60|
+|Máscara|29|52|88,00|92,20|84,60|
+|Todas as Classes|29|207|82,70|87,70|73,90|
 
 |![matriz-confusao](metricas-avaliativas/matriz-confusao.png)|![PS-curva](metricas-avaliativas/PS-curva.png)|
 |-|-|
