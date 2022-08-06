@@ -93,24 +93,24 @@ with col10:
         st.markdown('''Na análise preditiva, uma Matriz de Confusão é uma tabela que relata o 
                        número de ```Falsos Positivos```, ```Falsos Negativos```, 
                        ```Verdadeiros Positivos``` e ```Verdadeiros Negativos```.''')
-        st.image(image = 'imagens/matriz-confusao.png')
+        st.image(image = 'imagens-app/matriz-confusao.png')
     if box == 'Acurácia':
         st.markdown('''Métrica que analisa a quantidade de acertos do nosso modelo divido pelo total da 
                        amostras.''')
-        st.image(image = 'imagens/acuracia.png')
+        st.image(image = 'imagens-app/acuracia.png')
     if box == 'Precisão':
         st.markdown('''Métrica que analisa dentre todos os dados classificados como positivos, 
                        quantos são realmente positivos.''')
-        st.image(image = 'imagens/precisao.png')
+        st.image(image = 'imagens-app/precisao.png')
     if box == 'Sensibilidade':
         st.markdown('''Métrica que analisa qual a porcentagem de dados classificados como positivos 
                        comparado com a quantidade real de positivos que existem nas amostras.
                        (também conhecida como *Recall*).''')
-        st.image(image = 'imagens/sensibilidade.png')
+        st.image(image = 'imagens-app/sensibilidade.png')
     if box == 'F1-Score':
         st.markdown('''Métrica que une precisão e recall afim de trazer um número único que determine 
                        a qualidade geral do modelo.''')
-        st.image(image = 'imagens/f1-score.png')
+        st.image(image = 'imagens-app/f1-score.png')
 st.markdown('***')
 st.markdown('### > Gráficos das Métricas de Avaliação')
 
