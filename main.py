@@ -54,16 +54,16 @@ st.markdown('### > Galeria de Imagens')
 col5, col6 = st.columns(spec = [5,5])
 
 with col5:
-    st.image(image = '../portfolio-exemplos/midia-predicao/image4-predicao.png')
+    st.image(image = 'portfolio-exemplos/midia-predicao/image4-predicao.png')
 with col6:
-    st.image(image = '../portfolio-exemplos/midia-predicao/image2-predicao.png')
+    st.image(image = 'portfolio-exemplos/midia-predicao/image2-predicao.png')
 
 col7, col8 = st.columns(spec = [5,5])
 
 with col7:
-    st.image(image = '../portfolio-exemplos/midia-predicao/image5-predicao.png')
+    st.image(image = 'portfolio-exemplos/midia-predicao/image5-predicao.png')
 with col8:
-    st.image(image = '../portfolio-exemplos/midia-predicao/image1-predicao.png')
+    st.image(image = 'portfolio-exemplos/midia-predicao/image1-predicao.png')
 
 st.markdown('## Métricas Avaliativas do Sistema DEMO')
 st.markdown('***')
@@ -117,19 +117,19 @@ st.markdown('### > Gráficos das Métricas de Avaliação')
 col11, col12 = st.columns(spec = [5,5])
 
 with col11:
-    st.image(image = '../metricas-avaliativas/matriz-confusao.png', 
+    st.image(image = 'metricas-avaliativas/matriz-confusao.png', 
              caption = 'Matriz de Confusão do Modelo')
 with col12:
-    st.image(image = '../metricas-avaliativas/P-curva.png', 
+    st.image(image = 'metricas-avaliativas/P-curva.png', 
              caption = 'Análise da métrica de Precisão do modelo')
 
 col13, col14 = st.columns(spec = [5,5])
 
 with col13:
-     st.image(image = '../metricas-avaliativas/S-curva.png', 
+     st.image(image = 'metricas-avaliativas/S-curva.png', 
               caption = 'Análise da Métrica de Sensibilidade do modelo')
 with col14:
-    st.image(image = '../metricas-avaliativas/F1-curva.png', 
+    st.image(image = 'metricas-avaliativas/F1-curva.png', 
               caption = 'Análise da Métrica de F1-Score do modelo')
 
 st.markdown('## Equipe de Desenvolvimento')
