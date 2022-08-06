@@ -1,0 +1,8 @@
+
+train: /content/yolov5/formatted-dataset/images/train/
+val: /content/yolov5/formatted-dataset/images/val/
+
+# classes
+nc: 5  # number of classes
+names: ['Macacao', 'Protetor Facial', 'Luvas' , 'Oculos', 'Mascara']  # class names
+
