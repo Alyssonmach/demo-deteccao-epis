@@ -128,5 +128,5 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-prepare-data/data.zip
-prepare-data/formatted-dataset.zip
+preparacao-dados/data.zip
+preparacao-dados/formatted-dataset.zip
