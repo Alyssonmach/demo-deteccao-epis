@@ -32,7 +32,7 @@ with col1:
     st.markdown('* Protetor Facial;')
     st.markdown('* Óculos de Proteção;')
     st.markdown('* Luvas;')
-    st.markdown('* Macacão')
+    st.markdown('* Macacão;')
 with col2:
     st.image(image = 'imagens-app/imagem-exemplo.png', width = 300)
 
