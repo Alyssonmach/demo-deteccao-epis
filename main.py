@@ -19,11 +19,22 @@ st.header(body = 'Detecção de EPIs em Vídeo - Demonstração de Projeto - �
 st.markdown('***')
 
 st.markdown("""O objetivo do projeto consiste em desenvolver um sistema que detecte automaticamente 
-            o uso de EPIs (Equipamentos de Proteção Individual) em vídeo utilizando tecnologias do
-            estado da arte da Visão Computacional. Desse modo, como parte inicial do projeto foi feita
-            uma demonstração da capacidade das Redes Neurais Convolucionais para resolver problemas
-            relativos à detecção de objetos em vídeo através da arquitetura de rede YOLO.""")
-st.markdown('Para mais detalhes, acesse o artigo de projeto: [Relatório de Desenvolvimento.pdf](#)')
+            o uso de EPIs (Equipamentos de Proteção Individual) em vídeo no contexto de ambientes médicos
+            utilizando tecnologias do estado da arte da Visão Computacional. Desse modo, como parte 
+            inicial do projeto foi feita uma demonstração da capacidade das Redes Neurais para resolver 
+            problemas relativos à detecção de objetos em vídeo.""")
+
+col1, col2 = st.columns(spec = [5,5])
+
+with col1: 
+    st.markdown('Os equipamentos médicos considerados na demonstração a seguir são:')  
+    st.markdown('* Máscaras;')
+    st.markdown('* Protetor Facial;')
+    st.markdown('* Óculos de Proteção;')
+    st.markdown('* Luvas;')
+    st.markdown('* Macacão')
+with col2:
+    st.image(image = 'imagens-app/imagem-exemplo.png', width = 300)
 
 st.warning("""OBS: O modelo em questão é apenas uma demonstração de projeto. A equipe possui plena 
               capacidade para entregar um sistema mais aperfeiçoado e adaptável às necessidades do
